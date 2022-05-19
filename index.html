@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Sorting Visualisaton
+        </title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <div class="algoselect">
+            <label for="algos">ALGORITHM</label>
+                <select id="algos" name="algos">
+                <option value="Selection Sort">Selection Sort</option>
+                <option value="Bubble Sort">Bubble Sort</option>
+                <option value="Insertion Sort">Insertion Sort</option>
+                <option value="Merge Sort">Merge Sort</option>
+                <option value="Quick Sort">Quick Sort</option>
+                </select>
+            
+            <button id = "run" value="Run" onclick="run()">Run</button>
+            <button id = "reset" value="Reset" onclick="reset()">Reset</button>
+            <label for = "color">Color : </label>
+            <input id="colorselect" type="color" name = "color">
+        </div>
+        <div class="display">
+            <canvas id="myCanvas"></canvas>
+        </div>
+        
+    </body>
+</html>

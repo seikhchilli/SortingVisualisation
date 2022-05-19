@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color:mistyrose;
+}
+
+.algoselect{
+    background-color: chartreuse;
+    margin-top: 10vh;
+    margin-left: 1vw;
+    padding: 5px 2px 5px 2px;
+    height: 80vh;
+    width: 20vw;
+    border: 2px red solid;
+    display: flex;
+    flex-direction: column;
+}
+
+.display{
+    margin-top: 10vh;
+    margin-left: 3vw;
+    margin-right: 5vw;
+    height: 70vh;
+    width: 70vw;
+    border: 2px yellow solid;
+}
+
+#myCanvas{
+    height: 100%;
+    width: 100%;
+    background-color:dimgrey;
+
+}
+
